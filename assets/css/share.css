@@ -2,23 +2,30 @@
    SHARE SECTION & COMPONENTS
 */
 .share__section {
+   position: relative;
    width: 100%;
-}
-.user__container {
-   display: flex;
-   gap: 1em;
-   align-items: center;
-   background-color: var(--white);
-   padding: 2rem;
-   border-radius: 0 0 .5rem .5rem;
-}
-.user__img {
-   width: 3rem;
-   aspect-ratio: 1/1;
-   border-radius: 50%;
 }
    /*
       USER INFORMATIONS CONTAINER
+   */
+   .user__container {
+      display: flex;
+      gap: 1em;
+      align-items: center;
+      background-color: var(--white);
+      padding: 2rem;
+      border-radius: 0 0 .5rem .5rem;
+   }
+   /*
+      USER AVATAR IMG
+   */
+   .user__img {
+      width: 3rem;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+   }
+   /*
+      USER INFORMATIONS
    */
    .user-informations__container {
       flex-grow: 1;
@@ -49,21 +56,37 @@
       POP-UP SOCIALS CONTAINER
    */
    .share__container {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
       display: flex;
       gap: 1em;
       align-items: center;
       background-color: var(--very-dark-grayish-blue);
       padding: 2rem;
       border-radius: 0 0 .5rem .5rem;
+      z-index: -1;
    }
    /*
-      SOCIALS ICON STYLING
+      POP-UP SHARE TEXT
+   */
+   .share__text{
+      text-transform: uppercase;
+      font-size: 1rem;
+      letter-spacing: .3rem;
+      padding: 0 .5em;
+   }
+   /*
+      POP-UP SOCIALS ICONS
    */
    .socials__container {
       flex-grow: 1;
    }
    .socials__container i {
+      padding: 0 .2em;
       color: var(--white);
+      cursor: pointer;
    }
    .socials__container i:hover {
       color: var(--light-grayish-blue);
@@ -75,6 +98,7 @@
       padding: .889rem;
       border-radius: 50%;
       background-color: var(--grayish-blue);
+      cursor: pointer;
    }
    .pop-up-share-icon__container:hover {
       background-color: var(--light-grayish-blue);
@@ -82,4 +106,8 @@
    .pop-up-share-icon__container:hover > svg > path {
       fill: #6E8098;
    }
+
+.overview {
+   z-index: 1;
+}
 

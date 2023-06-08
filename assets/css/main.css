@@ -1,0 +1,5 @@
+.main-card__container {
+   width: 90%;
+   background-color: var(--white);
+   border-radius: .5rem;
+}

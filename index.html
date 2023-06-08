@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <meta name="description" content="This is an Article preview component"/> <!-- meta description is a brief summary of the content of a web page that is displayed in search results. -->
-  <meta name="keywords" content="Frontend Mentor, Article preview component, davidochoa.dev"/> <!-- is a list of relevant keywords for a specific web  page. However, is not used anymore due to abuse and spamming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <meta name="description" content="This is an Article preview component" />
+  <!-- meta description is a brief summary of the content of a web page that is displayed in search results. -->
+  <meta name="keywords" content="Frontend Mentor, Article preview component, davidochoa.dev" />
+  <!-- is a list of relevant keywords for a specific web  page. However, is not used anymore due to abuse and spamming -->
   <!-- The og:title is used to specify the title of a web page when it is shared on social media platforms. -->
   <meta property="og:title" content="Article preview component" />
   <!-- The og:description is used to specify the description of a web page when it is shared on social media platforms.-->
-  <meta property="og:description" content="Article preview component solution by davidochoadev"/>
+  <meta property="og:description" content="Article preview component solution by davidochoadev" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -20,12 +24,28 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
-  <main>
+  <main class="main-card__container">
+    <h1 class="visually__hidden">Article preview component</h1>
+    <img src="./assets/images/drawers.jpg" alt="Our furniture" class="card__img">
+    <h2 class="card__title">Shift the overall look and feel by adding these wonderful
+      touches to furniture in your home</h2>
+    <p class="card__description">
+      Ever been in a room and felt like something was missing? Perhaps
+      it felt slightly bare and uninviting. I’ve got some simple tips
+      to help you make any room feel complete.
+    </p>
     <div class="share__section">
       <div class="user__container">
         <img src="./assets/images/avatar-michelle.jpg" alt="Michelle Appleton Avatar" class="user__img">
@@ -38,24 +58,35 @@
           </p>
         </div>
         <div class="share-icon__container">
-          <img src="./assets/images/icon-share.svg" alt="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+            <path fill="#6E8098"
+              d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
+          </svg>
         </div>
       </div>
       <div class="share__container">
-
+        <p class="share__text">Share</p>
+        <div class="socials__container">
+          <i class="fa-brands fa-square-facebook fa-2xl"></i>
+          <i class="fa-brands fa-twitter fa-2xl"></i>
+          <i class="fa-brands fa-pinterest fa-2xl"></i>
+        </div>
+        <div class="pop-up-share-icon__container">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+            <path fill="white"
+              d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
+          </svg>
+        </div>
       </div>
     </div>
   </main>
 
-  Shift the overall look and feel by adding these wonderful 
+  Shift the overall look and feel by adding these wonderful
   touches to furniture in your home
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
 
   Share
-  
+
   <footer class="author__section">
     <a href="https://davidochoa.fly.dev" target="_blank" class="author__anchor">davidochoa.dev</a>
     <span class="author__spacer">|</span>
@@ -63,4 +94,5 @@
   </footer>
   <script src="./src/index.js" defer></script>
 </body>
+
 </html>

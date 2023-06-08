@@ -2,14 +2,14 @@
 /* 
    FOOTER SECTION
 */
-
 .author__section{
    position: fixed;
    bottom: 0;
    padding: .6em;
    z-index: 1;
    width: 100%;
-   text-align: left;
+   text-align: center;
+   background-color: var(--transparent-white);
 }
 .author__section > * {
    color: var(--grayish-magenta);

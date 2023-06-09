@@ -57,7 +57,7 @@ Users should be able to:
   </img>
 </a>
 <br>
-<a href="https://davidoochoa.fly.dev" target="_blank">
+<a href="https://davidochoa.fly.dev" target="_blank">
   <img src="https://img.shields.io/badge/website-%20davidochoa.fly.dev%20-1e293b?style=for-the-badge&logo=About.me&logoColor=white&labelColor=33ddb3&colo=33ddb3" alt="My Website">
 </a>
 <br>

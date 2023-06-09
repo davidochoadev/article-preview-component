@@ -6,10 +6,8 @@ const shareContainer = document.getElementById('share-container');
 share.addEventListener('click', () => {
    if(shareContainer.classList.contains('overview')){
       shareContainer.classList.remove('overview');
-      console.log("CONTAIN!")
    }else {
       shareContainer.classList.add('overview');
-      console.log('not contain!')
    }
 })
 

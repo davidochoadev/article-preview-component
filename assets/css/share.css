@@ -45,6 +45,7 @@
       background-color: var(--light-grayish-blue);
       padding: .889rem;
       border-radius: 50%;
+      cursor: pointer;
    }
    .share-icon__container:hover {
       background-color: var(--grayish-blue);

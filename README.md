@@ -18,10 +18,16 @@ Users should be able to:
 
 ![](./design/desktop-preview.jpg)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+### 🔗 Links
+<div align="left">
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Solution%20Mentor-%20SOLUTION%20URL-f8f9f8?style=for-the-badge&logo=Frontend-Mentor&logoColor=white&labelColor=3f54a3" alt="Frontend-Mentor Profile">
+  </a>
+  <br>
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Pages-Live%20Site%20URL-fff?style=for-the-badge&logo=github&logoColor=white&labelColor=100000" alt="Github">
+  </a>
+</div>
 
 <div align="center">
 
@@ -40,7 +46,7 @@ Users should be able to:
 </div>
 
 <div align="center">
-<h2 align="center">🔗 Connect with Me</h2>
+<h2 align="center">👋 Connect with Me</h2>
 <a href="https://www.linkedin.com/in/davidochoadev/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn%20Profile-%20davidochoadev-ffffff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn">
   </img>

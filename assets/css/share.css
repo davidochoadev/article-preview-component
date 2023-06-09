@@ -46,6 +46,7 @@
       padding: .889rem;
       border-radius: 50%;
       cursor: pointer;
+      border: none;
    }
    .share-icon__container:hover {
       background-color: var(--grayish-blue);
@@ -101,6 +102,7 @@
       border-radius: 50%;
       background-color: var(--grayish-blue);
       cursor: pointer;
+      border: none;
    }
    .pop-up-share-icon__container:hover {
       background-color: var(--light-grayish-blue);

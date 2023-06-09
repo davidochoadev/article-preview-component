@@ -41,7 +41,7 @@
       <div class="share__section">
         <!-- INFORMATIONS ABOUT THE USER -->
         <div class="user__container" id="user-container">
-          <img src="./assets/images/avatar-michelle.jpg" alt="Michelle Appleton Avatar" class="user__img">
+          <img src="./assets/images/avatar-michelle.jpg" alt="Michelle Appleton" class="user__img">
           <div class="user-informations__container">
             <p class="user-informations">
               Michelle Appleton
@@ -50,27 +50,33 @@
               28 Jun 2020
             </p>
           </div>
-          <div class="share-icon__container" id="share">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+          <button class="share-icon__container" id="share" aria-label="Open Share Pop-up">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" focusable="false" aria-hidden="true">
               <path fill="#6E8098"
                 d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
             </svg>
-          </div>
+          </button>
         </div>
         <!-- SHARE SOCIALS POP-UP -->
         <div class="share__container" id="share-container">
           <p class="share__text">Share</p>
           <div class="socials__container">
-            <i class="fa-brands fa-square-facebook fa-2xl"></i>
-            <i class="fa-brands fa-twitter fa-2xl"></i>
-            <i class="fa-brands fa-pinterest fa-2xl"></i>
+            <a href="#" aria-label="Open Facebook">
+              <i class="fa-brands fa-square-facebook fa-2xl"></i>
+            </a>
+            <a href="#" aria-label="Open Twitter">
+              <i class="fa-brands fa-twitter fa-2xl"></i>
+            </a>
+            <a href="#" aria-label="Open Pinterest"></a>
+              <i class="fa-brands fa-pinterest fa-2xl"></i>
+            </a>
           </div>
-          <div class="pop-up-share-icon__container" id="share-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+          <button class="pop-up-share-icon__container" id="share-2" aria-label="Close Share Pop-up">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" focusable="false" aria-hidden="true">
               <path fill="white"
                 d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
             </svg>
-          </div>
+          </button>
         </div>
       </div>
     </div>

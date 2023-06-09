@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="frontendmentor" width="80">
+<h2 align="center">Article Preview Component</h2>
 </div>
-# Article Preview Component
 
 This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
